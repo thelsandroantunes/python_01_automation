@@ -7,7 +7,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 
-### Move Arquivos | MOVE FILES
+### Mover Arquivos | MOVE FILES
 
 <a><img height="275" src="https://github.com/thelsandroantunes/python_01_automation/blob/main/images/img_01.jpg" alt="img-py-01"></a>
 
