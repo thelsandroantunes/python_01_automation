@@ -13,11 +13,11 @@ class FileHandler(FileSystemEventHandler):
         for file in os.listdir(folder_to_track):
             if file.endswith('.pdf') or file.endswith('.doc') or file.endswith('.txt') or file.endswith('.ppt'):
                 os.rename(folder_to_track+'//'+file, pdf_directory+'//'+file)
-            elif file.endswith('.jpg') or file.endswith('.png') or file.endswith('.jpeg') or file.endswith('.PNG') or file.endswith('.svg') or file.endswith('.eps'):
+            elif file.endswith('.jpg') or file.endswith('.JPG') or file.endswith('.png') or file.endswith('.PNG') or file.endswith('.jpeg') or file.endswith('.svg') or file.endswith('.eps'):
                 os.rename(folder_to_track+'//'+file, img_directory+'//'+file)
-            if file.endswith('.mp4') or file.endswith('.avi') or file.endswith('.vob') or file.endswith('.flv') or file.endswith('.mpeg') or file.endswith('.m4v'):
+            elif file.endswith('.mp4') or file.endswith('.avi') or file.endswith('.vob') or file.endswith('.flv') or file.endswith('.mpeg') or file.endswith('.m4v'):
                 os.rename(folder_to_track+'//'+file, mp4_directory+'//'+file)
-            if file.endswith('.epub') or file.endswith('.mobi'):
+            elif file.endswith('.epub') or file.endswith('.mobi'):
                 os.rename(folder_to_track+'//'+file, book_directory+'//'+file)
             elif file.endswith('.exe'):
                 shutil.move(folder_to_track+'//'+file, exe_directory+'//'+file)
@@ -30,7 +30,7 @@ class FileHandler(FileSystemEventHandler):
 
 
 # ========== Folder Original Start ========== #
-folder_to_track = " pathway "
+folder_to_track = "pathway"
 # ========== Folder Original End ========== #
 
 # ========== Moving the files Start ========== #
