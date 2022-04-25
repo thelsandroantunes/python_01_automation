@@ -13,7 +13,7 @@
 
 ### Manipular Imagens | IMAGES MANIPULATION
 
-<a><img height="275" src="https://github.com/thelsandroantunes/python_01_automation/blob/main/images/img_02.jpg" alt="img-py-02"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/python_01_automation/blob/main/images/img_03.jpg" alt="img-py-03"></a>
 
 > Se você quiser dar uma olhada em todas as telas em vídeo demo, elas estão [aqui](https://www.youtube.com/watch?v=M4OoAPR9jRU&list=PLb2uO7B2kUQBVf7qFfTZgWDyNGa0ifSEz).
 
@@ -43,7 +43,7 @@ Todos nós estamos aprendendo e evoluindo em tecnologia.
 Move automaticamente os arquivos para diversos diretório conforme necessidade.
 
 ```
-- *py_02_image_manipulation*, faz:
+- *py_03_image_manipulation*, faz:
 
 ```
 Manipula imagem configurando tamanho, cor, pixel, etc, conforme problemática.
