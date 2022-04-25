@@ -30,18 +30,18 @@ class FileHandler(FileSystemEventHandler):
 
 
 # ========== Folder Original Start ========== #
-folder_to_track = "pathway"
+folder_to_track = "C://Users//thels//Downloads"
 # ========== Folder Original End ========== #
 
 # ========== Moving the files Start ========== #
-pdf_directory = "pathway"
-img_directory = "pathway"
-mp4_directory = "pathway"
-book_directory = "pathway"
-other_directory = "pathway"
+pdf_directory = "C://Users//thels//OneDrive//Documentos"
+img_directory = "C://Users//thels//OneDrive//Imagens"
+mp4_directory = "C://Users//thels//Videos"
+book_directory = "C://Users//thels//Livros"
+other_directory = "C://Users//thels//Others"
 
-exe_directory = "pathway"
-code_directory = "pathway"
+exe_directory = "C://Users//thels//Programs"
+code_directory = "C://Users//thels//Code"
 # ========== Moving the files End ========== #
 
 # ========== Event Start ========== #
