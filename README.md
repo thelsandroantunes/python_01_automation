@@ -15,6 +15,10 @@
 
 <a><img height="275" src="https://github.com/thelsandroantunes/python_01_automation/blob/main/images/img_03.jpg" alt="img-py-03"></a>
 
+### Manipular Vídeos | VIDEOS MANIPULATION
+
+<a><img height="275" src="https://github.com/thelsandroantunes/python_01_automation/blob/main/images/img_04.jpg" alt="img-py-04"></a>
+
 > Se você quiser dar uma olhada em todas as telas em vídeo demo, elas estão [aqui](https://www.youtube.com/watch?v=M4OoAPR9jRU&list=PLb2uO7B2kUQBVf7qFfTZgWDyNGa0ifSEz).
 
 ## ⭐ Sobre este Projeto
@@ -49,5 +53,10 @@ Move automaticamente os arquivos para diversos diretório conforme necessidade.
 Manipula imagem configurando tamanho, cor, pixel, etc, conforme problemática.
 
 ```
+- *py_04_video_manipulation*, faz:
 
+```
+Manipula vídeo configurando tamanho, cor, corte, etc, conforme finalidade.
+
+```
 
