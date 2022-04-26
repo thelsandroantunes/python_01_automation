@@ -16,9 +16,9 @@ sharp = img.filter(ImageFilter.SHARPEN)
 sharp.save('images/img_out/sharp_output.jpeg')
 # ========== Sharp Image End ========== #
 # ========== Crop Image Start ========== #
-img = Image.open('images/img_in/python_00.jpg')
+img = Image.open('images/img_in/python_01.png')
 crop = img.crop((550, 550, 850, 850))
-crop.save('images/img_out/crop_output.jpg')
+crop.save('images/img_out/crop_output.png')
 # ========== Crop Image End ========== #
 # ========== Rotate Image Start ========== #
 img = Image.open('images/img_in/python_01.png')
